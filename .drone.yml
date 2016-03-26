@@ -1,0 +1,7 @@
+debug: true
+
+build:
+  image: qlik/gradle
+  commands:
+    - gradle assemble
+    - gradle build
